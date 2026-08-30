@@ -97,19 +97,19 @@ input{
 Crie sua conta
 </div>
 
-<form>
+<form action="login.php" method="post">
 
-<input type="text" placeholder="Nome completo">
+<input type="text" name="nome" placeholder="Nome completo" required>
 
-<input type="text" placeholder="Usuário">
+<input type="text" name="usuario" placeholder="Usuário" required>
 
-<input type="email" placeholder="E-mail">
+<input type="email" name="email" placeholder="E-mail" required>
 
-<input type="text" placeholder="WhatsApp">
+<input type="text" name="whatsapp" placeholder="WhatsApp" required>
 
-<input type="password" placeholder="Senha">
+<input type="password" name="senha" placeholder="Senha" required>
 
-<input type="password" placeholder="Confirmar senha">
+<input type="password" name="confirmar_senha" placeholder="Confirmar senha" required>
 
 <button class="botao" type="submit">
 CRIAR CONTA
