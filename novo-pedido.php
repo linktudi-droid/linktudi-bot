@@ -81,50 +81,50 @@ body{
 <body>
 
 <div class="titulo">
-📦 <span>Novo Pedido</span>
+<span>Novo Pedido</span>
 </div>
 
 <input
 type="text"
 class="busca"
-placeholder="🔍 Buscar serviço">
+placeholder="Buscar serviço">
 
 <div class="categoria">
-    <h3>📸 Instagram</h3>
+    <h3>Instagram</h3>
     <p>Ver serviços disponíveis</p>
 </div>
 
 <div class="categoria">
-    <h3>🎵 TikTok</h3>
+    <h3>TikTok</h3>
     <p>Ver serviços disponíveis</p>
 </div>
 
 <div class="categoria">
-    <h3>🎥 YouTube</h3>
+    <h3>YouTube</h3>
     <p>Ver serviços disponíveis</p>
 </div>
 
 <div class="categoria">
-    <h3>💬 Telegram</h3>
+    <h3>Telegram</h3>
     <p>Ver serviços disponíveis</p>
 </div>
 
 <div class="categoria">
-    <h3>📘 Facebook</h3>
+    <h3>Facebook</h3>
     <p>Ver serviços disponíveis</p>
 </div>
 
 <div class="categoria">
-    <h3>🐦 X (Twitter)</h3>
+    <h3>X</h3>
     <p>Ver serviços disponíveis</p>
 </div>
 
 <div class="menu">
-    <a href="painel.php">🏠<br>Início</a>
-    <a href="novo-pedido.php">📦<br>Pedido</a>
-    <a href="saldo.php">💰<br>Saldo</a>
-    <a href="#">📋<br>Pedidos</a>
-    <a href="#">👤<br>Perfil</a>
+    <a href="painel.php">Início</a>
+    <a href="novo-pedido.php">Pedido</a>
+    <a href="saldo.php">Saldo</a>
+    <a href="pedidos.php">Pedidos</a>
+    <a href="perfil.php">Perfil</a>
 </div>
 
 </body>
