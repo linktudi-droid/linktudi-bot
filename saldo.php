@@ -90,6 +90,7 @@ body{
     padding:15px;
     font-size:16px;
     font-weight:bold;
+    cursor:pointer;
 }
 
 .menu{
@@ -141,10 +142,10 @@ body{
 
 <div class="menu">
     <a href="painel.php">🏠<br>Início</a>
-    <a href="#">📦<br>Pedido</a>
+    <a href="novo-pedido.php">📦<br>Pedido</a>
     <a href="saldo.php">💰<br>Saldo</a>
-    <a href="#">📋<br>Pedidos</a>
-    <a href="#">👤<br>Perfil</a>
+    <a href="pedidos.php">📋<br>Pedidos</a>
+    <a href="perfil.php">👤<br>Perfil</a>
 </div>
 
 </body>
