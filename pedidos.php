@@ -64,6 +64,7 @@ body{
 .status{
     margin-top:10px;
     font-weight:bold;
+    color:#ff7a00;
 }
 
 .menu{
@@ -90,7 +91,7 @@ body{
 <body>
 
 <div class="titulo">
-📋 <span>Meus Pedidos</span>
+<span>Meus Pedidos</span>
 </div>
 
 <div class="filtros">
@@ -100,4 +101,27 @@ body{
     <div class="filtro">Cancelados</div>
 </div>
 
-<div class="
+<div class="pedido">
+    <h3>Pedido #0001</h3>
+    <div class="info">Serviço: Instagram Seguidores</div>
+    <div class="info">Quantidade: 1000</div>
+    <div class="status">Em andamento</div>
+</div>
+
+<div class="pedido">
+    <h3>Pedido #0002</h3>
+    <div class="info">Serviço: TikTok Curtidas</div>
+    <div class="info">Quantidade: 500</div>
+    <div class="status">Concluído</div>
+</div>
+
+<div class="menu">
+    <a href="painel.php">Início</a>
+    <a href="novo-pedido.php">Pedido</a>
+    <a href="saldo.php">Saldo</a>
+    <a href="pedidos.php">Pedidos</a>
+    <a href="perfil.php">Perfil</a>
+</div>
+
+</body>
+</html>
