@@ -57,6 +57,7 @@ body{
     font-size:16px;
     font-weight:bold;
     margin-top:10px;
+    cursor:pointer;
 }
 
 .sair{
@@ -68,6 +69,7 @@ body{
     padding:15px;
     font-size:16px;
     margin-top:10px;
+    cursor:pointer;
 }
 
 .menu{
@@ -94,7 +96,7 @@ body{
 <body>
 
 <div class="titulo">
-👤 <span>Meu Perfil</span>
+<span>Meu Perfil</span>
 </div>
 
 <div class="card">
@@ -113,19 +115,19 @@ body{
 </div>
 
 <button class="botao">
-🔒 Alterar Senha
+Alterar Senha
 </button>
 
 <button class="sair">
-🚪 Sair
+Sair
 </button>
 
 <div class="menu">
-    <a href="painel.php">🏠<br>Início</a>
-    <a href="novo-pedido.php">📦<br>Pedido</a>
-    <a href="saldo.php">💰<br>Saldo</a>
-    <a href="pedidos.php">📋<br>Pedidos</a>
-    <a href="perfil.php">👤<br>Perfil</a>
+    <a href="painel.php">Início</a>
+    <a href="novo-pedido.php">Pedido</a>
+    <a href="saldo.php">Saldo</a>
+    <a href="pedidos.php">Pedidos</a>
+    <a href="perfil.php">Perfil</a>
 </div>
 
 </body>
