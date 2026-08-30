@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -58,7 +58,6 @@ body{
 
 .cards{
     display:grid;
-    grid-template-columns:1fr;
     gap:12px;
     margin-bottom:20px;
 }
@@ -134,4 +133,25 @@ body{
     </div>
 
     <div class="card">
-        <
+        <h4>Pedidos concluídos</h4>
+        <div class="numero">0</div>
+    </div>
+
+</div>
+
+<div class="acoes">
+    <a class="acao" href="novo-pedido.php">🛒 Novo Pedido</a>
+    <a class="acao" href="pedidos.php">📦 Meus Pedidos</a>
+    <a class="acao" href="saldo.php">💰 Adicionar Saldo</a>
+    <a class="acao" href="perfil.php">👤 Meu Perfil</a>
+</div>
+
+<div class="menu">
+    <a href="painel.php">🏠<br>Início</a>
+    <a href="novo-pedido.php">🛒<br>Pedido</a>
+    <a href="saldo.php">💰<br>Saldo</a>
+    <a href="perfil.php">👤<br>Perfil</a>
+</div>
+
+</body>
+</html>
