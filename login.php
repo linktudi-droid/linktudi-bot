@@ -68,6 +68,7 @@ input{
     border-radius:12px;
     font-size:16px;
     font-weight:bold;
+    cursor:pointer;
 }
 
 .cadastro{
@@ -96,11 +97,11 @@ input{
 Bem-vindo de volta
 </div>
 
-<form>
+<form action="painel.php" method="post">
 
-<input type="email" placeholder="E-mail">
+<input type="email" name="email" placeholder="E-mail" required>
 
-<input type="password" placeholder="Senha">
+<input type="password" name="senha" placeholder="Senha" required>
 
 <button class="botao" type="submit">
 ENTRAR
@@ -110,7 +111,7 @@ ENTRAR
 
 <div class="cadastro">
 Não tem conta?<br><br>
-<a href="#">CRIAR CONTA</a>
+<a href="cadastro.php">CRIAR CONTA</a>
 </div>
 
 </div>
