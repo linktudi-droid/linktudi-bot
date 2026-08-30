@@ -117,7 +117,7 @@ body{
 <body>
 
 <div class="topo">
-    <div class="titulo">💰 <span>Saldo</span></div>
+    <div class="titulo"><span>Saldo</span></div>
 </div>
 
 <div class="card">
@@ -141,11 +141,11 @@ body{
 </button>
 
 <div class="menu">
-    <a href="painel.php">🏠<br>Início</a>
-    <a href="novo-pedido.php">📦<br>Pedido</a>
-    <a href="saldo.php">💰<br>Saldo</a>
-    <a href="pedidos.php">📋<br>Pedidos</a>
-    <a href="perfil.php">👤<br>Perfil</a>
+    <a href="painel.php">Início</a>
+    <a href="novo-pedido.php">Pedido</a>
+    <a href="saldo.php">Saldo</a>
+    <a href="pedidos.php">Pedidos</a>
+    <a href="perfil.php">Perfil</a>
 </div>
 
 </body>
